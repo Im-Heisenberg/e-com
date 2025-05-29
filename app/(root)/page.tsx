@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 const Prostore = () => {
-	return <Button>Click me</Button>;
+	return null;
 };
 
 export default Prostore;
