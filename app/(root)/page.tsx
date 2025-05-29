@@ -1,6 +1,10 @@
-import { Button } from "@/components/ui/button";
+import ProductList from "@/components/product/product-list";
+import sampleData from "@/db/sample-data";
+console.log(sampleData);
 const Prostore = () => {
-	return null;
+	return <>
+	<ProductList data={sampleData.products} title="Newest Arrival" />
+	</>
 };
 
 export default Prostore;
