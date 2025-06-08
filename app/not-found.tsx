@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { APP_NAME } from "@/lib";
+import { APP_NAME } from "@/lib/constants";
 import Image from "next/image";
 
 const NotFound = () => {
@@ -21,7 +21,9 @@ const NotFound = () => {
 					variant={"outline"}
 					className="mt-4 ml-2"
 					onClick={() => (window.location.href = "/")}
-				>Back to home</Button>
+				>
+					Back to home
+				</Button>
 			</div>
 		</div>
 	);
