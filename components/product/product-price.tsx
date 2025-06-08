@@ -6,7 +6,7 @@ const ProductPrice = ({
 	value: number;
 	classname?: string;
 }) => {
-	const stringValue = value.toFixed(2);
+	const stringValue = Number(value).toFixed(2);
 	const [intValue, floatValue] = stringValue.split(".");
 	return (
 		<p className={cn("tsxt-2xl", classname)}>
